@@ -1,0 +1,11 @@
+import java.util.*;
+public class demo{
+public static void main(String arg[]){
+      Integer arr[]={12,4,56,7,86};
+      List<Integer>li = new ArrayList(Arrays.asList(arr));
+      li.add(0,100);
+
+System.out.println(li);
+}
+
+}
